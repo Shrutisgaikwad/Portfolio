@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.jpeg">
+</head>
+<body>
+    <div class="home" id="home">
+        <div class="sticky-nav">
+            <div class="logo">Portfolio</div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home" style="opacity: 1; text-decoration: underline;">Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#skill-section" >Skill</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                    <li><a href="#" >Github</a></li>
+                </ul>
+            </div>   
+        </div>
+        <div class="text">
+            <h1>Hello!</h1>
+            <h1>I'm Shruti Gaikwad</h1>
+            <p>I am web developer from Pune.I am passionate about building excellent software <br>that improves the lives of those around me.</p>
+            <a href="shruti cv1.pdf" id="cv"> <button id="cv" > Show CV</button></a> 
+        </div>
+    </div>
+    
+<!-- ----------------About--------------------------- -->
+<div id="about">
+    <div class="container" >
+        <div class="aimg">
+            <img src="about.jpg">
+        </div>
+        <div class="atext">
+            <p class="para" ><h1>About Me</h1>
+                <div class="aboutinfo">I am a 3rd year computer engineering student from SPPU Pune University.I am front-end web developer. I can provide clean code and pixel perfect design. I also make the website more and more interactive with different properties & web animation.</div>
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Education') ">Education</p>
+                <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Education">
+                <ul>
+                    <li><span>CS</span><br>Pursing 3rd year of Computer eng.</li>
+                    <li><span>12th</span><br>From maharastra board.</li>
+                    <li><span>10th</span><br>From maharastra board.</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Experiance">
+                <ul>
+                    <li><span>Tech inter</span><br>online intership.</li>
+                    <li><span>codesoft</span><br>From maharastra board.</li>
+                    <li><span>Accit</span><br>Inter.</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Hobbies">
+                <ul>
+                    <li><span>Making website</span><br>I like to make creative website</li>
+                    <li><span>Reading</span><br>Like to read historical books</li>
+                    <li><span>Reading</span><br>Like to read historical books</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- -----------------SKiLL ----------------------->
+<section id="skill-section">
+    <h1 >My Skills</h1>
+    <div id="skills">
+        <div class="skills-container">
+            <div class="col1 s1">
+                <h2 style="margin-right: 1.5rem;">Skills</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>Creativity</li>
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+            <div class="col1 s2">
+                <h2 style="margin-top: 2rem; margin-right: 1.5rem;">Projects</h2>
+                <ul>
+                    <li>Spotify clone (using HTML,CSS)</li>
+                    <li>Lanfing page (using HTML,CSS)</li>
+                    <li>Portfolio (using HTML,CSS)</li>
+                    <li>Economical website (Flower shopping using HTML,CSS)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="p1">
+            <div class="progress">
+                <div class="lang">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 80%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>80%</span>
+                    </div>
+                </div>
+
+                <div class="lang">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 80%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>80%</span>
+                    </div>
+                </div>
+
+                <div class="lang">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 60%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <div class="lang">
+                    <span>Bootstrap</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 60%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>80%</span>
+                    </div>
+                </div>
+
+                <div class="lang">
+                    <span>MongoDb</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 60%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>70%</span>
+                    </div>
+                </div>
+
+                <div class="lang">
+                    <span>MySQL</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-inner" style="width: 60%;"></div>
+                    </div>
+                    <div class="per">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------------------------- CONTACT ----------------------------- -->
+<div id="contact">
+    <h1>CONTACT ME</h1>
+    <div class="contact-container">
+        <div class="cinfo">
+            <h2 >Get in Touch</h2>
+            <p >Feel free to get in touch with me. I am always open to discussing new projects,creative ideas or oppportunity to be a part of your visions. Email me with any questions or inquiries. I'll happy to answer your questions and set up a meeting with you.</p>
+            <h4><i class="fa-solid fa-paper-plane" style="margin: 2rem 2rem 0 5rem;" ></i>xyz@gmail.com</h4>
+            <h4><i class="fa-solid fa-square-phone" style="margin: 0 2rem 0 5rem;"></i>1234567890</h4>
+        </div>
+        <div class="message">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" >
+                <input type="mail" name="email" placeholder="Your mail">
+                <input type="text" placeholder="Subject">
+                <textarea name="message" rows="6" style="width: 70%;" placeholder="Message..."></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2024. All Rights Reserved.</p>
+    </div>
+</div>
+ 
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
+
